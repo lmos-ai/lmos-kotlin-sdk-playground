@@ -24,11 +24,11 @@ repositories {
 
 dependencies {
     // Replace the following with the starter dependencies of specific modules you wish to use
-    implementation("org.eclipse.thingweb:kotlin-wot-binding-http:0.1.3-SNAPSHOT")
-    implementation("org.eclipse.thingweb:kotlin-wot-binding-websocket:0.1.3-SNAPSHOT")
-    implementation("org.eclipse.thingweb:kotlin-wot-binding-mqtt:0.1.3-SNAPSHOT")
-    implementation("org.eclipse.thingweb:kotlin-wot-spring-boot-starter:0.1.3-SNAPSHOT")
+    implementation("org.eclipse.thingweb:kotlin-wot-binding-http:0.1.0-SNAPSHOT")
+    implementation("org.eclipse.thingweb:kotlin-wot-binding-websocket:0.1.0-SNAPSHOT")
+    implementation("org.eclipse.thingweb:kotlin-wot-binding-mqtt:0.1.0-SNAPSHOT")
     implementation("org.eclipse.lmos:lmos-kotlin-sdk-client:0.1.0-SNAPSHOT")
+    implementation("org.eclipse.lmos:lmos-kotlin-sdk-server:0.1.0-SNAPSHOT")
 
     api("org.eclipse.lmos:arc-spring-boot-starter:0.1.0-SNAPSHOT")
 
