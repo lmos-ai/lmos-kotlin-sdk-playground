@@ -24,6 +24,7 @@ repositories {
 
 dependencies {
     // Replace the following with the starter dependencies of specific modules you wish to use
+    implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.eclipse.thingweb:kotlin-wot-binding-http:0.1.0-SNAPSHOT")
     implementation("org.eclipse.thingweb:kotlin-wot-binding-websocket:0.1.0-SNAPSHOT")
     implementation("org.eclipse.thingweb:kotlin-wot-binding-mqtt:0.1.0-SNAPSHOT")
@@ -104,9 +105,9 @@ tasks.named<BootRun>("bootRun") {
 }
 
 repositories {
-    mavenLocal()
     mavenCentral()
     maven {
         url = uri("https://oss.sonatype.org/content/repositories/snapshots/")
     }
+    //mavenLocal()
 }
